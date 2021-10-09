@@ -20,8 +20,8 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - acme >=1.4.0
-    - certbot >=1.6.0
+    - acme >={{ version }}
+    - certbot >={{ version }}
     - pyopenssl >=17.3.0
     - pyparsing >=2.2.0
     - python >=3.6
