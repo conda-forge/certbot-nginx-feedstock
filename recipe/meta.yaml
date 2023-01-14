@@ -1,5 +1,5 @@
 {% set name = "certbot-nginx" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/certbot-nginx-{{ version }}.tar.gz
-  sha256: 9f88b92227e72463a57de28ef82a5c2a4eb18d1d7ec811f33ddbf9fbef92a4aa
+  sha256: 19467e589505883be4cb0c486a21f1430ea997554d052f8b330bf1bc6779e891
 
 build:
   number: 0
