@@ -1,11 +1,11 @@
-About certbot-nginx
-===================
+About certbot-nginx-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/certbot-nginx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/letsencrypt/letsencrypt
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/certbot-nginx-feedstock/blob/main/LICENSE.txt)
 
 Summary: Nginx plugin for Certbot
 
