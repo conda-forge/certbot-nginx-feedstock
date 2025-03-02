@@ -23,8 +23,8 @@ requirements:
   run:
     - acme >={{ version }}
     - certbot >={{ version }}
-    - pyopenssl >=17.5.0,!=23.1.0
-    - pyparsing >=2.2.1
+    - pyopenssl >=25.0.0
+    - pyparsing >=2.4.7
     - python >={{ python_min }}
     - setuptools >=41.6.0
 
