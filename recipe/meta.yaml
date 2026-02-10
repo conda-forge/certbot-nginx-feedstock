@@ -1,5 +1,5 @@
 {% set name = "certbot-nginx" %}
-{% set version = "5.2.2" %}
+{% set version = "5.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e5c2a8645390a81f179e3cb5d5185c42ab9f9e918b63da458d8b1406bd321017
+  sha256: 148edb71a8a690c71dc888d3f4aa3eb0d23de62f53fe500db4c224cece32b84b
 
 build:
   number: 0
@@ -21,8 +21,8 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - acme >=5.2.2
-    - certbot >=5.2.2
+    - acme >=5.3.1
+    - certbot >=5.3.1
     - pyopenssl >=25.0.0
     - pyparsing >=2.4.7
     - python >={{ python_min }}
